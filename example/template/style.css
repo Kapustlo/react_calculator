@@ -1,0 +1,68 @@
+.calculator
+{
+  border: 1px solid grey;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+.top, .bottom, .middle, .calculator, .screen
+{
+  display: flex;
+}
+
+.top, .bottom, .middle, .calculator textarea, .screen
+{
+  width: 100%;
+}
+
+.top
+{
+  flex-grow: 2;
+}
+
+.middle
+{
+  flex-grow: 1;
+}
+
+.bottom
+{
+  flex-grow: 9;
+}
+
+.calculator textarea
+{
+  resize: none;
+  height: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  padding: .25rem;
+}
+
+.hull
+{
+  width: 100%;
+}
+
+.number-row
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.number-row .button
+{
+  background-color: rgb(220, 220, 220);
+  padding: .25rem;
+  font-weight: 300;
+}
+
+.number-row .button:hover
+{
+  cursor: pointer;
+  opacity: .5;
+}
