@@ -8,8 +8,6 @@ This component may be used separately from the Calculator component as for now i
 
 # Calculator
 
-## Example
-
 ```javascript
   <Calculator rows={rows} height="600" width="400"/>
 ```
