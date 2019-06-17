@@ -3,7 +3,7 @@
 ## Example
 
 ``` javascript
-  <Button text="cos" value={() => alert("Tihs button is meant for cos")} height={16} width={16} />
+  <Button text="cos" value={() => alert("This button is meant for cos")} height={16} width={16} />
 ```
 
 This component may be used separately from the Calculator component however when used in the Calculator component, it is created internally.
