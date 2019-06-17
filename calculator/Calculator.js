@@ -51,7 +51,7 @@ export default class Calculator extends Handler {
             if (isNaN(Number(text))) constants[text] = value;
           }
 
-          buttons.push(<div className={"btn_wrapper_" + counter / 2} style={{padding: ".5rem", width: btnWidth, height: btnHeight}}>{btn}</div>);
+          buttons.push(<div className={"btn_wrapper_" + counter / 2} key={"wrapper_"+counter} style={{padding: ".5rem", width: btnWidth, height: btnHeight}}>{btn}</div>);
           counter++;
         }
         rows.push(<div className="number-row" key={"row_"+counter}>{buttons}</div>);
