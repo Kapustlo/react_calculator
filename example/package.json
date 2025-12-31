@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "brunch": "^2.10.17",
-    "npm": "^6.9.0",
+    "npm": "^11.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
